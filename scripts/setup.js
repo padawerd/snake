@@ -1,5 +1,6 @@
 // must be divisible by 4
 const pieceSize = 20;
+// TODO: generate based on url?
 const gridSize = 10;
 
 const sideLength = canvasSize(pieceSize, gridSize);

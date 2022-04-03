@@ -133,6 +133,7 @@ function isSameCoordinates(lhs, rhs)
 function endGame(gameState)
 {
     //TODO: something!
-    alert("game over");
+    alert("game over - refresh to play again");
+    this.scene.pause();
 
 }
